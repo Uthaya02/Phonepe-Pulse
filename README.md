@@ -47,3 +47,12 @@ The project includes the following components and steps:
 - Python (>=3.6)
 - Git
 - MySQL Database
+
+Data Extraction and Transformation
+Data is extracted from the Phonepe Pulse GitHub repository and cleaned and transformed using Python scripts. The transformed data is saved in a suitable format for analysis.
+
+MySQL Database
+A MySQL database is used to efficiently store and retrieve the transformed data. The database schema and connection details can be found in database_setup.sql.
+
+Dashboard Creation
+The dashboard is created using Streamlit and Plotly in Python. Users can access the dashboard by running streamlit run app.py in the project directory. It offers multiple dropdown options for users to explore various facts and figures from the Phonepe Pulse data.
